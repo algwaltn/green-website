@@ -1,0 +1,12 @@
+body {
+	max-width: 1200px;
+	margin: 0 auto;
+	font-family: Montserrat, 'Lora', Arial, serif;
+}
+
+h1,
+h3,
+h4 {
+	color: black;
+	text-transform: uppercase;
+}

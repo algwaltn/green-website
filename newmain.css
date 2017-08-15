@@ -1,0 +1,221 @@
+body {
+	max-width: 1200px;
+	margin: 0 auto;
+	font-family: 'Lora', Arial, serif;
+}
+/*** MARGINS ***/
+
+.top-section,
+#work,
+#about,
+#contact {
+	width: 100%;
+	margin: 0 auto;
+	float: left;
+}
+
+/*** HEADER ***/
+
+header {
+	height: 120px;
+	width: 100%;
+	font-family: 'Lora'; serif,
+}
+span {
+	color: #a65f41;
+}
+
+/*** NAVIGATION BUTTONS ***/
+
+/*header*/ nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 0 5px;
+	color: #2f4872;
+}
+/*header*/ nav {
+	float: right;
+	padding: 40px 0px;
+}
+
+/*** MY NAME ***/
+
+header h1 {
+	font-style: 'Dancing Script', cursive;
+	font-size: 40px;
+	color: #2f4872;
+	text-align: left;
+	width: auto;
+	float: left;
+	padding: 5px 0;
+	text-transform: uppercase;
+}
+/*** BIG PICTURE ***/
+
+.main-image {
+	width: 100%;
+	height: 100%;
+	float: left;
+	padding: 0;
+}
+.main-image img {
+		width: 100%;
+		border-bottom: 2px solid #151e34;
+		border-top: 2px solid #151e34;
+	}
+
+	/*** WORK SECTION ***/
+
+#work {
+	text-align: center;
+	height: 500px;
+	background-color: #E7E8EC;
+}
+
+#work h3 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 60px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: #2f4872;
+}
+#work ul {
+	list-style: none;
+}
+
+#work li {
+	display: inline-block;
+	width: 33%;
+	margin-top: 0px;
+}
+#descriptions {
+	font-size: 20px;
+	font-weight: bold;
+	color: #032021;
+}
+
+#explanations li {
+	display: inline-block;
+	height: 105px;
+	width: 250px;
+	margin-left: 55px;
+	margin-right: 55px;
+	border: 1px dotted #ffffff;
+	margin-top: 20px;
+	padding: 10px;
+	color: black;
+	font-weight: 500;
+	}
+
+#work p {
+	font-family: 'Dancing Script', cursive;
+	font-size: 26px;
+	font-weight: bolder;
+	margin-top: 80px;
+	color: #a65f41;
+}
+
+/*** ABOUT SECTION ***/
+
+#about {
+	border-top: 2px solid #151e34;
+	border-bottom: 2px solid #151e34;
+	height: 500px;
+	background-color: #fafafa;
+	margin-top: 5px;
+}
+
+.half-width {
+	margin-top: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+.half-width img {
+	width: 400px;
+	height: 380px;
+	display: inline-block;
+	float: left;
+	border: 10px solid #151e34;
+	margin-top: 50px;
+	margin-left: 125px;
+	margin-right: 75px;
+}
+
+.half-width p {
+	width: 400px;
+	height: 400px;
+	display: inline-block;
+	font-size: 23px;
+	float: left;
+	padding-top: 0px;
+	line-height: 35px;
+	margin-top: 50px;
+	margin-left: 125px;
+}
+
+/*** CONTACT SECTION ***/
+
+#contact {
+	border-bottom: 2px solid #151e34;
+	margin-bottom: 5px;
+	height: 500px;
+	background-color: #E7E8EC;
+	margin-top: 5px;
+}
+#contact h2,
+#contact h3 {
+	margin-bottom: 40px;
+	color: #2f4872;
+}
+#contact h2 {
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+	margin-top: 60px;
+}
+#contact h3 {
+
+	font-size: 30px;
+	display: inline-block;
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+#contact ul {
+	display: inline-block;
+	list-style: none;
+	width: 46%;
+	text-align: center;
+	float: left;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.social {
+	float: left;
+}
+.email li {
+	float: left;
+	width: 100%;
+	text-align: justify;
+	margin-left: 50px;
+	padding-bottom: 10px;
+}
+.email li a {
+	text-decoration: none;
+	color: #653126;
+	font-weight: lighter;
+}
+.social li {
+	float: left;
+	width: 20%;
+	margin-left: 50px;
+}
+
+.social li img {
+	height: 40px;
+	width: 45%;
+}
